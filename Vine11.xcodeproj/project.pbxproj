@@ -33,6 +33,8 @@
 		281E34B7178DE76A00A6A2F9 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 281E34B6178DE76A00A6A2F9 /* tick.png */; };
 		281E34B9178DE77200A6A2F9 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 281E34B8178DE77100A6A2F9 /* cross.png */; };
 		288F1D8E178E2DEE00BE56E8 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F943DA178E2914007D0BF0 /* libGTLTouchStaticLib.a */; };
+		28EB47E6178F2E27001755D3 /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 28EB47E5178F2E27001755D3 /* sample.mov */; };
+		28EB47EC178F3583001755D3 /* GTL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F943D8178E2914007D0BF0 /* GTL.framework */; };
 		28F942A1178E1A01007D0BF0 /* GTLQueryYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F941E0178E1A00007D0BF0 /* GTLQueryYouTube.m */; };
 		28F942A2178E1A01007D0BF0 /* GTLServiceYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F941E2178E1A00007D0BF0 /* GTLServiceYouTube.m */; };
 		28F942A4178E1A01007D0BF0 /* GTLYouTubeAccessPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F941E6178E1A00007D0BF0 /* GTLYouTubeAccessPolicy.m */; };
@@ -208,6 +210,7 @@
 		281E34B0178DCFA900A6A2F9 /* PreviewVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewVideoViewController.m; sourceTree = "<group>"; };
 		281E34B6178DE76A00A6A2F9 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
 		281E34B8178DE77100A6A2F9 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		28EB47E5178F2E27001755D3 /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.mov; sourceTree = "<group>"; };
 		28F941DF178E1A00007D0BF0 /* GTLQueryYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryYouTube.h; sourceTree = "<group>"; };
 		28F941E0178E1A00007D0BF0 /* GTLQueryYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryYouTube.m; sourceTree = "<group>"; };
 		28F941E1178E1A00007D0BF0 /* GTLServiceYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceYouTube.h; sourceTree = "<group>"; };
@@ -411,6 +414,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28EB47EC178F3583001755D3 /* GTL.framework in Frameworks */,
 				288F1D8E178E2DEE00BE56E8 /* libGTLTouchStaticLib.a in Frameworks */,
 				28F94341178E205E007D0BF0 /* Security.framework in Frameworks */,
 				28F9433F178E2057007D0BF0 /* SystemConfiguration.framework in Frameworks */,
@@ -494,6 +498,7 @@
 		281E3472178C8BD500A6A2F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28EB47E5178F2E27001755D3 /* sample.mov */,
 				281E34B8178DE77100A6A2F9 /* cross.png */,
 				281E34B6178DE76A00A6A2F9 /* tick.png */,
 				281E3473178C8BD500A6A2F9 /* Vine11-Info.plist */,
@@ -822,6 +827,7 @@
 				281E3488178C8BD500A6A2F9 /* ViewController.xib in Resources */,
 				281E34B7178DE76A00A6A2F9 /* tick.png in Resources */,
 				281E34B9178DE77200A6A2F9 /* cross.png in Resources */,
+				28EB47E6178F2E27001755D3 /* sample.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
